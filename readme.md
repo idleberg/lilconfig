@@ -93,6 +93,6 @@ lilconfig('myapp', options)
 
 ## Version correlation
 
-- lilconig v1 → cosmiconfig v6
-- lilconig v2 → cosmiconfig v7
-- lilconig v3 → cosmiconfig v8
+- lilconfig v1 → cosmiconfig v6
+- lilconfig v2 → cosmiconfig v7
+- lilconfig v3 → cosmiconfig v8
