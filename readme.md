@@ -47,9 +47,9 @@ lilconfigSync(
 ESM configs can be loaded with **async API only**. Specifically `js` files in projects with `"type": "module"` in `package.json` or `mjs` files.
 
 ## Difference to `cosmiconfig`
-Lilconfig does not intend to be 100% compatible with `cosmiconfig` but tries to mimic it where possible. The key difference is **no** support for yaml files out of the box(`lilconfig` attempts to parse files with no extension as JSON instead of YAML). You can still add the support for YAML files by providing a loader, see an [example](#yaml-loader) below.
+Lilconfig does not intend to be 100% compatible with `cosmiconfig` but tries to mimic it where possible. The key difference is **no** support for YAML files out of the box(`lilconfig` attempts to parse files with no extension as JSON instead of YAML). You can still add the support for YAML files by providing a loader, see an [example](#yaml-loader) below.
 
-### Options difference between the two.
+### Options differ between the two.
 
 |cosmiconfig option      | lilconfig |
 |------------------------|-----------|
@@ -65,7 +65,7 @@ Lilconfig does not intend to be 100% compatible with `cosmiconfig` but tries to 
 
 ### Yaml loader
 
-If you need the YAML support you can provide your own loader
+If you need the YAML support, you can provide your own loader
 
 ```js
 import {lilconfig} from 'lilconfig';
